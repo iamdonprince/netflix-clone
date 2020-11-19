@@ -1,0 +1,118 @@
+/* .banner {
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  object-fit: contain;
+  height: 448px;
+  background-color: black;
+}
+.banner-contents {
+  margin-left: 20px;
+  padding-top: 140px;
+  height: 190px;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 800;
+  padding-bottom: 0.3rem;
+}
+.text {
+  width: 45rem;
+  line-height: 1.3rem;
+  padding-top: 1rem;
+  font-size: 0.8rem;
+  max-width: 360px;
+  height: 80px;
+}
+
+button {
+  outline: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-right: 1rem;
+  font-weight: 700;
+  border-radius: 0.2vw;
+  padding-top: 0.5rem;
+  background-color: rgba(51, 51, 51, 0.5);
+  padding-bottom: 0.5rem;
+}
+
+button:hover {
+  color: #131212;
+  background: #f3f3f3;
+  transition: all 0.2s;
+}
+
+.banner--fadeBottom {
+  height: 7.7rem;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(0, 0, 0, 0.7),
+    #111
+  );
+} */
+
+/* new style */
+
+.banner {
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 90vh;
+  box-sizing: border-box;
+}
+.banner-contents {
+  padding-top: 150px;
+  padding-left: 20px;
+  height: inherit;
+  background: linear-gradient(to right, #111 5%, transparent 70%);
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 800;
+  padding-bottom: 0.3rem;
+}
+.text {
+  width: 45rem;
+  line-height: 1.3rem;
+  padding-top: 1rem;
+  font-size: 0.8rem;
+  max-width: 360px;
+  height: 80px;
+  color: #f3f1f1;
+}
+
+button {
+  outline: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-right: 1rem;
+  font-weight: 700;
+  border-radius: 0.2vw;
+  padding-top: 0.5rem;
+  background-color: rgba(51, 51, 51, 0.5);
+  padding-bottom: 0.5rem;
+}
+
+button:hover {
+  color: #131212;
+  background: #f3f3f3;
+  transition: all 0.2s;
+}
+
+.banner--fadeBottom {
+  height: inherit;
+  margin-top: -700px;
+  background: linear-gradient(to top, #111 15%, transparent 30%);
+}
